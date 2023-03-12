@@ -1,0 +1,103 @@
+#banner{
+    display: flex;
+    height: 63px;
+    width: 1440px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+}
+/* input.placeholder {
+    text-align: center;
+} */
+#layout1_banner{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    opacity: 0.6;
+}
+#layout3_banner{
+    display: flex;
+    justify-content: space-around;
+    width: 310px;
+    
+}
+#pic_nav{
+    width: 1440px;
+    height: 390px;
+    background-image: url('picture/Image\ 1.png');
+}
+#content_nav{
+    display: flex;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 130px;
+    text-align: justify;
+}
+#menu{
+    height: 170px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+#layout1_menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
+    font-size: 25px;
+    margin-left: -65px;
+    color: rgb(39, 126, 39);
+}
+#layout2_menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    font-size: 25px;
+}
+.ct1_menu{
+    background-color: rgb(9, 111, 9);
+    color: white;
+    height: 53px;
+    width: 180px;
+    border-radius: 9px;
+    /* text-align: center;
+    vertical-align: baseline; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+}
+.pic_ct{
+    display: inline;
+}
+.height_pic{
+    height: 335px;
+    /* width: 265px; */
+}
+.flex_content{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0px 130px;
+}
+#end_content{
+    height: 225px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 600px;
+    opacity: 0.5;
+}
+.footer{
+    height: 435px;
+    width: 1440px;
+    background-color: rgb(15, 15, 44);
+}
